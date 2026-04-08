@@ -7,7 +7,10 @@ products.forEach(p => {
   card.innerHTML = `
     <div class="product-tier eyebrow">${p.tier}</div>
 
-    <div class="product-media ${p.type}"></div>
+    <div class="product-media">
+      <img src="${p.image}" alt="${p.name}" class="product-img" />
+      <div class="product-overlay"></div>
+    </div>
 
     <div class="product-body">
       <div class="product-copy">
@@ -34,3 +37,4 @@ products.forEach(p => {
 
   grid.appendChild(card);
 });
+
