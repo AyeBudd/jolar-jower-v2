@@ -2,16 +2,19 @@ const products = [
   {
     tier: "Tier 1",
     name: "Jolar Panel",
-    description: "Entry-tier infrastructure for onboarding efficiency and reduced energy drag.",
+    description: "Entry-tier solar infrastructure designed to give smaller operators an early foothold in efficiency optimization.",
+    type: "panel"
   },
   {
     tier: "Tier 2",
     name: "Jolar Cluster",
-    description: "Balanced optimization layer for scaling operators seeking improved system economics.",
+    description: "Mid-tier configuration focused on balanced deployment, improving overall system economics without overcommitting slots.",
+    type: "cluster"
   },
   {
     tier: "Tier 3",
     name: "Jolar Array",
-    description: "Premium infrastructure for high-density operations and long-horizon efficiency strategies.",
+    description: "High-density infrastructure built for advanced operators optimizing long-horizon efficiency across larger facilities.",
+    type: "array"
   }
 ];
